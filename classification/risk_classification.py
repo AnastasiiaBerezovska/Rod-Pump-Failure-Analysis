@@ -1,4 +1,9 @@
-# Risk Classification and Radial Visualization for Pumps
+"""
+Risk Classification and Radial Visualization for Pumps
+
+Author: Anastasiia Brund  
+Date: April 2025
+"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
