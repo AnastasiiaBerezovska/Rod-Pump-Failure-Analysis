@@ -1,8 +1,5 @@
 """
 Risk Classification and Radial Visualization for Pumps
-
-Author: Anastasiia Brund  
-Date: April 2025
 """
 
 import pandas as pd
