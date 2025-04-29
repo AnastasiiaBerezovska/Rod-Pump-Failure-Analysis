@@ -14,8 +14,6 @@ Note:
     End date (lifetime_end)
     Failure event (FAILSTART, optional if censored)
     Numerical features such as pressure, temperature, and vibration.
-
-Author: Anastasiia Brund
 """
 
 # *** Imports ***
