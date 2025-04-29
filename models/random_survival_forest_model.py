@@ -1,12 +1,19 @@
 """
 Pump Lifetime Prediction using Random Survival Forest
 
-This script predicts the expected lifetime of rod pumps using survival analysis techniques.
+This script performs pump lifetime prediction using survival analysis. It includes:
+- Data preprocessing
+- Time-based splitting (train/test/blind)
+- Model training with Random Survival Forest
+- Evaluation and visualization
+- Bootstrapped prediction intervals for uncertainty estimation
 
-**Important**: 
-- The code was originally developed using a proprietary dataset from ConocoPhillips.
-- The dataset cannot be shared publicly.
-- Users must supply their own dataset with similar structure (dates, lifetime, failure events).
+Note:
+- The original dataset from ConocoPhillips is private. Users must supply their own dataset with a similar structure, consisting of:      
+    Start date (lifetime_start)
+    End date (lifetime_end)
+    Failure event (FAILSTART, optional if censored)
+    Numerical features such as pressure, temperature, and vibration.
 
 Author: Anastasiia Brund
 """
