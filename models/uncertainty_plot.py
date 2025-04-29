@@ -2,6 +2,9 @@
 """
 Generate uncertainty intervals using bootstrapped Random Survival Forests.
 Assumes you have already trained a model and saved train_predictions.csv.
+
+Author: Anastasiia Brund  
+Date: April 2025
 """
 
 import os
