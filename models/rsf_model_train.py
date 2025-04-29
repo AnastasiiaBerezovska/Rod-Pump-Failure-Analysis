@@ -9,8 +9,6 @@ This script:
 - Saves outputs for training, test, and blind sets
 
 This script assumes the dataset exists in the "data/" folder as "rodpump_failure_final.csv".
-
-Author: Anastasiia Brund
 """
 
 import os
