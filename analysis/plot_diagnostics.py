@@ -8,9 +8,6 @@ This includes:
 - Kaplan-Meier survival curves
 
 Make sure you've already run `train_rsf_model.py` to generate the predictions.
-
-Author: Anastasiia Brund
-Date: April 2025
 """
 
 import os
