@@ -9,7 +9,6 @@ This script performs pump lifetime prediction using survival analysis. It includ
 - Bootstrapped prediction intervals for uncertainty estimation
 
 Note:
-- Dataset not included. Users must supply a CSV with similar columns.
 - The original dataset from ConocoPhillips is private. Users must supply their own dataset with a similar structure, consisting of:      
     Start date (lifetime_start)
     End date (lifetime_end)
