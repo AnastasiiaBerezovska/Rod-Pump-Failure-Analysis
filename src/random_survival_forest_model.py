@@ -7,6 +7,7 @@ This script predicts the expected lifetime of rod pumps using survival analysis 
 - The code was originally developed using a proprietary dataset from ConocoPhillips.
 - The dataset cannot be shared publicly.
 - Users must supply their own dataset with similar structure (dates, lifetime, failure events).
+- This script includes all processing steps except for bootstrapping, which is implemented in a separate file.
 
 Author: Anastasiia Brund
 """
