@@ -29,7 +29,7 @@ Rod-Pump-Failure-Analysis/
 │   ├── test_predictions.csv
 │   └── blind_predictions.csv
 ├── requirements.txt       # Python package dependencies
-└── README.md              # Project instructions (you are here)
+└── README.md              # Project instructions 
 ```
 
 ---
