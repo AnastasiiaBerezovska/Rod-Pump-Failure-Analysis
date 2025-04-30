@@ -80,7 +80,7 @@ def create_risk_radial_chart(df, title, output_filename, colormap=plt.cm.rainbow
 # Load model output files for train, test, and blind datasets.
 # Ensure these files are generated in previous steps.
 # Define the base path relative to the current script
-base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data"))
+base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 
 
 # Define file paths for the datasets
