@@ -95,8 +95,11 @@ python classification/risk_classification.py
 To replicate this analysis, users must supply their own dataset with a similar structure, including:
 
     lifetime_start: Start date of the pump operation
+  
     lifetime_end: End date of the pump operation
+  
     FAILSTART (optional): Timestamp of failure event (useful for uncensored data)
+  
     Relevant numerical features such as pressure, temperature, vibration levels, etc.
 
 ---
