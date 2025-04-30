@@ -23,7 +23,7 @@ Rod-Pump-Failure-Analysis/
 ├── classification/        # Risk group classification
 │   └── risk_classification.py
 ├── models/                # Model training pipeline
-│   └── train_rsf_model.py
+│   └── rsf_model_train.py
 ├── data/                  # Placeholder demo data 
 │   ├── train_predictions.csv
 │   ├── test_predictions.csv
@@ -57,7 +57,7 @@ Trains the Random Survival Forest and generates the following files:
 
 To run the script:
 ```bash
-python models/train_rsf_model.py
+python models/rsf_model_train.py
 ```
 
 ### Step 2: Generate Diagnostic Plots
