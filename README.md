@@ -92,10 +92,11 @@ python classification/risk_classification.py
 ## Notes
 - This project uses **demo placeholders only** for public sharing.
 - The original dataset from ConocoPhillips is private. Users must supply their own dataset with a similar structure, consisting of:      
-    Start date (lifetime_start)
-    End date (lifetime_end)
-    Failure event (FAILSTART, optional if censored)
-    Numerical features such as pressure, temperature, and vibration.
+
+  Start date (lifetime_start)
+  End date (lifetime_end)
+  Failure event (FAILSTART, optional if censored)
+  Numerical features such as pressure, temperature, and vibration.
 
 ---
 
