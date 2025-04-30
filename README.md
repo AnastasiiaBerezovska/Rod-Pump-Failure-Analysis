@@ -12,22 +12,8 @@ This project was developed in academic collaboration with ConocoPhillips, using 
 - **Risk Classification**: Groups pumps into High, Medium, and Low risk
 ---
 
+![image](https://github.com/user-attachments/assets/ae798317-5c7b-4f2d-bbcd-ea4402c97588)
 
-## Repository Structure
-Rod-Pump-Failure-Analysis/
-├── analysis/               # Evaluation plots and uncertainty visualization
-│   ├── plot_diagnostics.py
-│   └── uncertainty_plot.py
-├── classification/        # Risk group classification
-│   └── risk_classification.py
-├── models/                # Model training pipeline
-│   └── train_rsf_model.py
-├── data/                  # Placeholder demo data
-│   ├── train_predictions.csv
-│   ├── test_predictions.csv
-│   └── blind_predictions.csv
-├── requirements.txt       # Python package dependencies
-└── README.md              # Project instructions 
 
 
 ## Installation
