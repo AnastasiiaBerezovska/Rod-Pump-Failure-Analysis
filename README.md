@@ -14,33 +14,24 @@ This project was developed in academic collaboration with ConocoPhillips, using 
 ![image](https://github.com/user-attachments/assets/ae798317-5c7b-4f2d-bbcd-ea4402c97588)
 
 
+---
+
 ## Installation
+
 Install required Python packages:
 ```bash
 pip install -r requirements.txt
 
-# 1. Train the Model
-# Trains the Random Survival Forest and generates:
-# - train_predictions.csv
-# - test_predictions.csv
-# - blind_predictions.csv
+Train the Model
+Trains the Random Survival Forest and generates:
+
+train_predictions.csv
+
+test_predictions.csv
+
+blind_predictions.csv
+
 python models/train_rsf_model.py
-
-# 2. Generate Diagnostic Plots
-# This script will generate:
-# - Permutation feature importance plot
-# - Predicted vs. Actual scatter plot
-# - Error histogram
-# - Kaplan-Meier survival curves
-python analysis/plot_diagnostics.py
-
-# 3. Estimate Uncertainty
-# Run bootstrapping to estimate prediction intervals
-python analysis/uncertainty_plot.py
-
-# 4. Classify Pump Risk Levels
-# Group pumps into High, Medium, and Low risk categories using predictions
-python classification/risk_classification.py
 
 Notes
 This project uses demo placeholders only for public sharing.
