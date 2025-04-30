@@ -4,45 +4,101 @@ This project applies survival analysis techniques to predict the operational lif
 
 This project was developed in academic collaboration with ConocoPhillips, using techniques applied to real-world well failure analysis. The dataset used here is a simulated version for public demonstration only.
 
+---
+
 ## Project Overview
 - **Modeling**: Trains a Random Survival Forest model
 - **Diagnostics**: Evaluates prediction accuracy and model interpretability
 - **Uncertainty**: Estimates prediction intervals using bootstrapping
 - **Risk Classification**: Groups pumps into High, Medium, and Low risk
+
 ---
 
-![image](https://github.com/user-attachments/assets/ae798317-5c7b-4f2d-bbcd-ea4402c97588)
-
+## Repository Structure
+```
+Rod-Pump-Failure-Analysis/
+├── analysis/               # Evaluation plots and uncertainty visualization
+│   ├── plot_diagnostics.py
+│   └── uncertainty_plot.py
+├── classification/        # Risk group classification
+│   └── risk_classification.py
+├── models/                # Model training pipeline
+│   └── train_rsf_model.py
+├── data/                  # Placeholder demo data (no real ConocoPhillips data)
+│   ├── train_predictions.csv
+│   ├── test_predictions.csv
+│   └── blind_predictions.csv
+├── requirements.txt       # Python package dependencies
+└── README.md              # Project instructions (you are here)
+```
 
 ---
 
 ## Installation
 
-Install required Python packages:
+Install the required Python packages:
+
 ```bash
 pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-Train the Model
-Trains the Random Survival Forest and generates:
+---
 
-train_predictions.csv
+## How to Run
 
-test_predictions.csv
+This section provides detailed instructions on how to run each script in the project.
 
-blind_predictions.csv
+### Step 1: Train the Model
+Trains the Random Survival Forest and generates the following files:
+- `train_predictions.csv`
+- `test_predictions.csv`
+- `blind_predictions.csv`
 
+To run the script:
+```bash
 python models/train_rsf_model.py
+```
 
-Notes
-This project uses demo placeholders only for public sharing.
-The original dataset from ConocoPhillips is private. Users must supply their own dataset with a similar structure, consisting of:      
-    Start date (lifetime_start)
-    End date (lifetime_end)
-    Failure event (FAILSTART, optional if censored)
-    Numerical features such as pressure, temperature, and vibration.
+### Step 2: Generate Diagnostic Plots
+Creates:
+- Permutation feature importance plot
+- Predicted vs. Actual scatter plot
+- Error histogram
+- Kaplan-Meier survival curves
 
+To run the script:
+```bash
+python analysis/plot_diagnostics.py
+```
 
+### Step 3: Estimate Uncertainty
+Estimates prediction intervals via bootstrapping.
 
+To run the script:
+```bash
+python analysis/uncertainty_plot.py
+```
 
+### Step 4: Classify Pump Risk Levels
+Groups pumps into High, Medium, and Low risk categories.
+
+To run the script:
+```bash
+python classification/risk_classification.py
+```
+
+## Notes
+- This project uses **demo placeholders only** for public sharing.
+- You must supply your own dataset with similar structure for real analysis.
+
+---
+
+## Author
+**Anastasiia Brund**  
+Student Researcher | UT Austin
+
+---
 
 
