@@ -91,12 +91,16 @@ python classification/risk_classification.py
 
 ## Notes
 - This project uses **demo placeholders only** for public sharing.
-- The original dataset from ConocoPhillips is private. Users must supply their own dataset with a similar structure, consisting of:      
+- The original dataset provided by ConocoPhillips is proprietary and cannot be shared publicly.
+To replicate this analysis, users must supply their own dataset with a similar structure, including:
 
-  Start date (lifetime_start)
-  End date (lifetime_end)
-  Failure event (FAILSTART, optional if censored)
-  Numerical features such as pressure, temperature, and vibration.
+    lifetime_start: Start date of the pump operation
+
+    lifetime_end: End date of the pump operation
+
+    FAILSTART (optional): Timestamp of failure event (useful for uncensored data)
+
+    Relevant numerical features such as pressure, temperature, vibration levels, etc.
 
 ---
 
