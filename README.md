@@ -93,8 +93,6 @@ python classification/risk_classification.py
 - The original dataset provided by ConocoPhillips is proprietary and cannot be shared publicly.
 To replicate this analysis, users must supply their own dataset with a similar structure, including:
 
-- | Column              | Description                                          |
-- |---------------------|------------------------------------------------------|
 - | `lifetime_start`     | Start date of pump operation                         |
 - | `lifetime_end`       | End date of pump operation                           |
 - | `FAILSTART` *(opt.)* | Timestamp of failure event (for uncensored data)     |
