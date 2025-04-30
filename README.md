@@ -77,7 +77,7 @@ Estimates prediction intervals via bootstrapping.
 
 To run the script:
 ```bash
-python analysis/uncertainty_plot.py
+python models/uncertainty_plot.py
 ```
 
 ### Step 4: Classify Pump Risk Levels
