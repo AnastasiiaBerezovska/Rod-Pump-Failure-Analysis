@@ -19,11 +19,11 @@ This project was developed in academic collaboration with ConocoPhillips, using 
 Rod-Pump-Failure-Analysis/
 ├── analysis/               # Evaluation plots and uncertainty visualization
 │   ├── plot_diagnostics.py
-│   └── uncertainty_plot.py
 ├── classification/        # Risk group classification
 │   └── risk_classification.py
 ├── models/                # Model training pipeline
 │   └── rsf_model_train.py
+|   └── uncertainty_plot.py
 ├── data/                  # Placeholder demo data 
 │   ├── train_predictions.csv
 │   ├── test_predictions.csv
