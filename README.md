@@ -24,7 +24,7 @@ Rod-Pump-Failure-Analysis/
 │   └── risk_classification.py
 ├── models/                # Model training pipeline
 │   └── train_rsf_model.py
-├── data/                  # Placeholder demo data (no real ConocoPhillips data)
+├── data/                  # Placeholder demo data 
 │   ├── train_predictions.csv
 │   ├── test_predictions.csv
 │   └── blind_predictions.csv
